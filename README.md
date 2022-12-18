@@ -56,10 +56,10 @@ Also you can read data using iterator:
 
 ```cpp
 for (auto x : parser)
-	{
-		std::cout << x;
-		std::cout << std::endl;
-	}
+{
+    std::cout << x;
+    std::cout << std::endl;
+}
 ```
 
 
@@ -70,22 +70,22 @@ for (auto x : parser)
 
 int main()
 {
-	std::ifstream fin("input.csv");
+    std::ifstream fin("input.csv");
     
     //Using , like delimeter and " like escape symbol
-	CSVParser<int, std::string, double, int, int, int, double, int, double, int, std::string> p(fin, 3, ',', '/');
+    CSVParser<int, std::string, double, int, int, int, double, int, double, int, std::string> p(fin, 3, ',', '/');
 
     // Show all rows
-	for (auto x : p)
-	{
-		std::cout << x;
-		std::cout << std::endl;
-	}
+    for (auto x : p)
+    {
+    	std::cout << x;
+	std::cout << std::endl;
+    }
 
     //Show third row
-	std::cout << p[3];
+    std::cout << p[3];
 
-	return 0;
+return 0;
 }
 ```
 
