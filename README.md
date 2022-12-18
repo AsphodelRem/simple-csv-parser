@@ -45,7 +45,7 @@ std::tuple<Args...> getString()
 std::tuple<Args...> operator[](int index)
 ```
 
-**NOTE:** Valid indexes dosen't include skiped rows, for example if skipLines == n, then 5'th rows will be (n + skipLines)'th
+**NOTE:** Valid indexes dosen't include skiped rows, for example if skipLines == n, then 5'th rows will be (n + 5)'th
 
 In case index > number of rows in file, an out_of_range exception will be thrown
 
