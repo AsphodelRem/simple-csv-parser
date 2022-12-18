@@ -50,7 +50,7 @@ std::tuple<Args...> operator[](int index)
 In case index > number of rows in file, an out_of_range exception will be thrown
 
 
-### Iterator
+## Iterator
 Also you can read data using iterator:
 
 ```cpp
