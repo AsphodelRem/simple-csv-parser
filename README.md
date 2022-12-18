@@ -71,7 +71,7 @@ int main()
 {
     std::ifstream fin("input.csv");
     
-    //Using , like delimeter and " like escape symbol
+    //Using , like delimeter and / like escape symbol
     CSVParser<int, std::string, double, int, int, int, double, int, double, int, std::string> p(fin, 3, ',', '/');
 
     // Show all rows
