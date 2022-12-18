@@ -39,8 +39,7 @@ CSVParser<Args...> parser("input.csv", 0, ',', '\"');
 std::tuple<Args...> getString()
 ```
 
-2. Operator []
-Return index'th row 
+2. Return index'th row 
 
 ```cpp
 std::tuple<Args...> operator[](int index)
@@ -85,7 +84,7 @@ int main()
     //Show third row
     std::cout << p[3];
 
-return 0;
+    return 0;
 }
 ```
 
