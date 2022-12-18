@@ -9,7 +9,7 @@ Task: write a simple csv parser using tuples, lazy reading and templates
 
 ## Usage
 
-Just include SCVParser.hpp and you're good to go:
+Just include CSVParser.hpp and you're good to go:
 
 ```cpp
 #include <CSVParser.hpp>
